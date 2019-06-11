@@ -1,0 +1,27 @@
+{
+    "name": "tdtrung17693/php-chalk",
+    "description": "Just another PHP terminal string styling",
+    "keywords": [
+        "cli",
+        "cli-color",
+        "color",
+        "terminal-color",
+        "ansi-color"
+    ],
+    "type": "library",
+    "license": "Apache-2",
+    "authors": [
+        {
+            "name": "Tran Dinh Trung",
+            "email": "trandinhtrung176@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TdTrung\\Chalk\\": "src/"
+        }
+    },
+    "require": {
+        "tdtrung17693/php-os-recognizer": "^1.0"
+    }
+}
