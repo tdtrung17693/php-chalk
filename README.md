@@ -8,6 +8,18 @@ A PHP terminal styling library inspired by [Chalk](https://github.com/chalk/chal
 -   Support style chaining.
 -   Support style nesting.
 
+## Installation
+
+**Through composer**
+
+```
+composer require tdtrung17693/php-chalk
+```
+
+**Manually**:
+
+Just download/clone this repo
+
 ## Usage
 
 See `examples` to know more about how to use this library.
