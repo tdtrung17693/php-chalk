@@ -9,7 +9,7 @@
         "ansi-color"
     ],
     "type": "library",
-    "license": "Apache-2",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Tran Dinh Trung",
