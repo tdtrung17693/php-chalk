@@ -170,7 +170,7 @@ class Chalk
     public function __call($styleName, $arguments)
     {
         if (!$this->isValidStyle($styleName)) {
-            throw InvalidStyleException($styleName);
+            throw new InvalidStyleException($styleName);
         }
 
         list($offset, $styleName) = $this->parseStyleName($styleName);
