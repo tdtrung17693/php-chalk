@@ -71,7 +71,7 @@ class Chalk
         } else if (strpos($this->osRecognizer->getPlatform(), 'win') !== false) {
             // get os version and build
             $release = explode('.', $this->osRecognizer->getRelease());
-            if (intval($release[0]) >= 10 && intval($release[1]) >= 10586) {
+            if (intval($release[0]) >= 10 && intval($release[2]) >= 10586) {
                 $this->supportLevel = intval($release[2]) >= 14931 ? 3 : 2;
                 return;
             }
